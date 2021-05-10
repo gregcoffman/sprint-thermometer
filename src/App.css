@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.liquid,
+.empty {
+  display: block;
+  border: 1px solid #282c34;
+  border-bottom: none;
+}
+
+.liquid {
+  background-color: cadetblue;
+}
+
+.therm-holder {
+  max-width: 15%;
+  float: left;
+  margin-right: 20px;
+}
