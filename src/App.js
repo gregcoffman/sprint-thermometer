@@ -15,7 +15,8 @@ const App  = () => {
       { id: uuidv4(), name: "Craig", max: 40, accepted: 0, reserved: 10 },
       { id: uuidv4(), name: "Jake", max: 40, accepted: 0, reserved: 10 },
       { id: uuidv4(), name: "Jonathan", max: 40, accepted: 0, reserved: 10 },
-      { id: uuidv4(), name: "Greg", max: 40, accepted: 0, reserved: 10 },
+      { id: uuidv4(), name: "Ian", max: 20, accepted: 0, reserved: 3 },
+      { id: uuidv4(), name: "JDS", max: 10, accepted: 0, reserved: 2 }
     ]
   );
 
