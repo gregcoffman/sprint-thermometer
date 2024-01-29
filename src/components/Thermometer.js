@@ -31,14 +31,15 @@ const Thermometer = props => {
   return (
     <div className="therm-holder">
       <h2>{name}</h2>
-      <div className="thermometer">{liquid}</div>
-      <div className="use">
-        {reservedState+acceptedState}/{max}
-      </div>
       <button onClick={addOne}>+1</button>
       <button onClick={addFive}>+5</button>
       <button onClick={rmOne}>-1</button>
+      <div className="use">
+        {reservedState+acceptedState}/{max}
+      </div>
+      <div className="thermometer">{liquid}</div>
       <a className="reset" onClick={reset}>reset</a>
+      
     </div>
   );
 }

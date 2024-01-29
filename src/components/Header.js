@@ -4,7 +4,7 @@ export class Header extends Component {
   render() {
     return (
       <header>
-        <h1>Sprint Thermometers</h1>
+        {/* <h1>Sprint Thermometers</h1> */}
       </header>
     );
   }

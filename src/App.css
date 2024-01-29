@@ -102,7 +102,8 @@ button, a:hover {
 }
 
 button:hover {
-  background-color: #d3d3d3;
+  background-color: #FFA300;
+  font-weight: bold;
 }
 
 a.reset {
@@ -121,8 +122,12 @@ a.reset:hover {
   color: #B73838;
 }
 
-/* 00629B
-41B6E6
-FFA300
+h1 {
+  font-size: 20px;
+  margin: 0 2em;
+}
 
-4 */
+h2 {
+  font-size: 20px;
+  margin: 0;
+}
